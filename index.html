@@ -10,21 +10,18 @@
   <header class="bg-slate-900 flex justify-between py-10">
     <h1 class="font-extrabold text-6xl ml-10">Tangerang Tourism</h1>
     <ul class="font-semibold flex gap-20 mt-5 mr-10 text-xl">
-      <li class="">
-        Home
+      <li>
+        <a href=#home>Home</a>
       </li>
-      <li class="">
-        About Us
+      <li>
+        <a href=#landmarks>Landmarks</a>
       </li>
-      <li class="">
-        Landmarks
-      </li>
-      <li class="">
-        Contact
+      <li>
+        <a href=#highlights>Highlights</a>
       </li>
     </ul>
   </header>
-  <div class="flex items-center justify-center w-screen h-screen bg-[linear-gradient(to_left,theme('colors.violet.700'),transparent),url('/img/home-bg.png')] bg-cover bg-center">
+  <div id="home" class="flex items-center justify-center w-screen h-screen bg-[linear-gradient(to_left,theme('colors.violet.700'),transparent),url('/img/home-bg.png')] bg-cover bg-center">
     <div class="rounded-xl bg-slate-900 p-10 w-xl">
       <h1 class="font-bold text-2xl text-center mb-10">Tangerang Regency</h1>
       <p class="text-justify mb-5">Experience the modern pulse of Tangerang Regency
@@ -40,7 +37,7 @@ a shopping spree, or to cheer on your favorite team,
 Tangerang Regency offers an energetic urban retreat just minutes from Jakarta.</p>
     </div>
   </div>
-  <div class="flex">
+  <div id="landmarks" class="flex">
     <div class="w-1/2 pl-10 pt-20 text-left flex-col">
       <h2 class="font-bold text-5xl mb-20">AEON Mall BSD</h2>
       <p class="mb-5 w-2xl mr-auto">AEON Mall BSD City is one of Tangerang Regency’s most popular lifestyle and entertainment destinations.
@@ -88,7 +85,7 @@ Scientia Square Park offers a calm, beautiful, and refreshing retreat right in t
     </div>
     <img src="img/location-3.jpeg" class="w-1/2">
   </div>
-  <div class="flex-col items-center justify-center w-screen min-h-96
+  <div id="highlights" class="flex-col items-center justify-center w-screen min-h-96
   [background-image:linear-gradient(to_left,theme('colors.violet.700'),transparent),linear-gradient(to_right,theme('colors.violet.700'),transparent),url('/img/banner.jpg')] 
   bg-cover bg-center">
     <h2 class="font-bold text-5xl text-center pt-20 mb-20">Why Visit These Places?</h2>
